@@ -3,31 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML Lesson 1</title>
+    <title>HTML Homework 2</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
 
-    <header>
-        <a href="/"><img src="/goit-1/images/WebStudio.png" alt="WebStudio Logo"></a>
-        <address>
-        <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-        <a href="tel:+38 096 111 11 11">+38 096 111 11 11</a>
-        </address>
-
+    <header class="header">
+        <!--Logo-->
+        <a class="logo" href="/"><img src="./images/logo.png" alt="WebStudio Logo"></a>
+        <!--Nav Lists-->
         <nav>
-            <ul>
-                <li><a href="">Студия</a></li>
-                <li><a href="">Порфтолио</a></li>
-                <li><a href="">Контакты</a></li>
+            <ul class="nav-list">
+                <li><a class="nav-item" href="">Студия</a></li>
+                <li><a class="nav-item" href="">Порфтолио</a></li>
+                <li><a class="nav-item" href="">Контакты</a></li>
             </ul>
         </nav>
+        <!--Contacts-->
+        <address class="contact-list">
+            <a class="contact-item" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <a class="contact-item" href="tel:+38 096 111 11 11">+38 096 111 11 11</a>
+            </address>
+            
     </header>
 
     <main>
         <!--Hero-->
-        <section>
-            <h1>Ефективні рішення для вашого бізнесу</h1>
-            <button>Замовити послугу</button>
+        <section class="hero">
+            <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
+            <button class="hero-button">Замовити послугу</button>
         </section>
 
         <!--Features-->
